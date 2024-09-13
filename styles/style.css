@@ -1,31 +1,61 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img:first-of-type {
+    max-width: 30em;
+    margin-left: 9em;
+    margin-top: 3em;
+
+}
+
+img:nth-of-type(2) {
+    max-width: 45em;
+    margin-bottom: 5em;
+}
+
+img:nth-of-type(4) {
+    max-width: 45em;
+}
+
+button {
+    width: 40em;
+    background-color: #8fc78f;
+    margin: 2em;
+    margin-left: 7em;
+    border-style: none;
+    padding: 2.5em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+button:first-of-type {
+    width: 45em;
+    margin-left: 4em;
 }
 
 
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-:root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+.pokebowl-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2em;
+	overflow: auto;
 }
 
+.pokebowl-container img {
+    max-width: 12em;
+    height: auto;
+    margin: 1em;
+}
 
+h1 {
+    margin: 1em;
+}
 
-
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
-
+p:first-of-type {
+    margin: 2em;
+}
