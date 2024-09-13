@@ -4,58 +4,45 @@
     box-sizing: border-box;
 }
 
-img:first-of-type {
-    max-width: 30em;
-    margin-left: 9em;
-    margin-top: 3em;
+img {
+    max-width: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-seraf;
+    font-weight: 0;
+    font-size: 1em;
+    letter-spacing: 0px;
+    color: #7a7a7a;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333333;
+}
+
+body div {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0em;
+    margin-top: 4em;
+    max-width: 100%;
 
 }
 
-img:nth-of-type(2) {
-    max-width: 45em;
-    margin-bottom: 5em;
-}
-
-img:nth-of-type(4) {
-    max-width: 45em;
+body div img {
+    width: 6.5em;
+    margin: 0em;
 }
 
 button {
-    width: 40em;
+    width: 23em;
     background-color: #8fc78f;
-    margin: 2em;
-    margin-left: 7em;
     border-style: none;
-    padding: 2.5em;
     color: white;
-    display: flex;
-    justify-content: center;
-}
-
-button:first-of-type {
-    width: 45em;
-    margin-left: 4em;
-}
-
-
-.pokebowl-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 2em;
-	overflow: auto;
-}
-
-.pokebowl-container img {
-    max-width: 12em;
-    height: auto;
+    padding: 1.25em;
     margin: 1em;
-}
-
-h1 {
-    margin: 1em;
-}
-
-p:first-of-type {
-    margin: 2em;
 }
