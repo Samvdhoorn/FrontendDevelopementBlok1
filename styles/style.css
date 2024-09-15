@@ -9,18 +9,23 @@ img {
 }
 
 p {
-    font-family: 'Roboto', sans-seraf;
-    font-weight: 0;
-    font-size: 1em;
-    letter-spacing: 0px;
+    /* font-family: 'lft-etica-mono', Roboto, sans-serif; */
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 200;
+    font-size: 0.75em;
     color: #7a7a7a;
+    line-height: 2;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.4em;
+    font-family: Roboto Mono, sans-serif;
     font-weight: 400;
-    letter-spacing: 1px;
     color: #333333;
+    margin: 0.8em;
+    margin-top: 2em;
 }
 
 body div {
@@ -35,14 +40,111 @@ body div {
 
 body div img {
     width: 6.5em;
-    margin: 0em;
+    margin-bottom: 1em;
 }
 
 button {
-    width: 23em;
+    width: 22.5em;
     background-color: #8fc78f;
-    border-style: none;
+    border: none;
     color: white;
     padding: 1.25em;
     margin: 1em;
+    cursor: pointer;
+    font-family: Roboto Mono, sans-serif;
+    font-weight: 200;
+}
+
+header button {
+    padding: 1em;
+    width: 26em;
+    font-weight: 400;
+}
+
+
+section,
+article {
+    text-align: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+header img {
+    width: 18em;
+    margin: 1.25em;
+    margin-bottom: 0em;
+}
+
+article:nth-of-type(2) p {
+    font-size: 0.85em;
+}
+
+article:nth-of-type(2) p:first-of-type {
+    color: #8fc78f;
+    margin-bottom: 1em;
+}
+
+article:nth-of-type(2) button {
+    margin-bottom: 4em;
+}
+
+
+/*********
+2e section
+**********/
+
+@media (min-width: 50em) {
+    section:nth-of-type(2)>article:first-of-type {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+section:nth-of-type(2)>article:first-of-type div {
+   display: flex;
+   flex-direction: column;
+}
+
+
+@media (min-width: 50em) {
+    section:nth-of-type(2)>article:first-of-type div {
+        display: flex;
+        flex-direction: column;
+        margin: 0em;
+        justify-content: flex-start;
+    }
+    }
+
+@media (min-width: 50em) {
+    section:nth-of-type(2)>article:first-of-type h2 {
+        grid-column-start: 1;
+        position: relative;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 50em) {
+    section:nth-of-type(2)>article:first-of-type p {
+        grid-column-start: 1;
+        padding: 0 13em 2em 13em;
+    }
+}
+
+@media (min-width: 50em) {
+    section:nth-of-type(2)>article:first-of-type button {
+        grid-column-start: 1;
+    }
+}
+
+@media (min-width: 50em) {
+    section:nth-of-type(2)>article:first-of-type img {
+        grid-column-start: 2;
+        grid-row-start: 1;
+    }
 }
