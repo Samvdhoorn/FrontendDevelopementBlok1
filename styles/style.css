@@ -38,9 +38,10 @@ body div {
 
 }
 
-body div img {
+section:first-of-type img {
     width: 6.5em;
     margin-bottom: 1em;
+    box-sizing: border-box;
 }
 
 button {
@@ -95,9 +96,27 @@ article:nth-of-type(2) button {
 }
 
 
-/*********
+/**************************************************************************************************
+1e section
+***************************************************************************************************/
+
+section:first-of-type img:hover {
+border: 0.5em solid transparent;
+border-radius: 50%;
+border-color: #8fc78f;
+}
+
+
+
+
+/*************************************************************************************************
 2e section
-**********/
+**************************************************************************************************/
+
+
+/**********
+1e article >>>
+***********/
 
 @media (min-width: 50em) {
     section:nth-of-type(2)>article:first-of-type {
@@ -146,5 +165,73 @@ section:nth-of-type(2)>article:first-of-type div {
     section:nth-of-type(2)>article:first-of-type img {
         grid-column-start: 2;
         grid-row-start: 1;
+        margin: 0em;
     }
 }
+
+section:nth-of-type(2)>article:first-of-type img {
+    width: 16em;
+    margin: 2em;
+    box-shadow: 0em 0.25em 0.5em #7a7a7a;
+    margin-bottom: 4.5em;
+    
+}
+
+section:nth-of-type(2)>article:first-of-type h2 {
+    margin-top: 0em;
+}
+
+/**********
+2e article >>>
+***********/
+
+section:nth-of-type(2)>article:nth-of-type(2) img {
+    width: 16em;
+    margin: 2em;
+    box-shadow: 0em 0.25em 0.5em #7a7a7a;
+    margin-top: 3em;
+}
+
+/**********
+3e article >>>
+***********/
+
+section:nth-of-type(2)>article:nth-of-type(3) h2 {
+    margin-top: 5em;
+}
+
+section:nth-of-type(2)>article:nth-of-type(3) button {
+    margin-top: 5em;
+}
+
+
+/*************************************************************************************************
+3e section
+**************************************************************************************************/
+
+section:nth-of-type(3) li {
+    list-style: none;
+    display: flex;
+    overflow: auto;
+}
+
+section:nth-of-type(3) li img {
+    width: 10em;
+    margin: 0.5em;
+}
+
+/* section:nth-of-type(3) {
+    width: 100%;
+    overflow: hidden;
+}
+
+section:nth-of-type(3) li {
+    list-style: none;
+    display: flex;
+    transition: transform 0.5s ease-in-out; /* Voor vloeiende overgang */
+}
+
+section:nth-of-type(3) li img {
+    width: 10em;
+    margin: 0.5em;
+} */
