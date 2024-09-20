@@ -1,21 +1,19 @@
 // JavaScript Document
 console.log("hi");
 
-// let currentIndex = 0;
-// const images = document.querySelector('section:nth-of-type(3) li img');
-// const totalImages = images.length;
+const hamburgerButton = document.querySelector('.hamburger-button')
+const closeButton = document.querySelector('.close-button')
+const navMenu = document.querySelector('#nav-menu')
 
-// function showNextImage() {
-//     currentIndex++; 
-//         if (currentIndex >= totalImages) {
-//             currentIndex = 1;
-//         }
+function openMenu() {
+    navMenu.classList.add('open')
+    console.log('hamburgermenu is geopend')
+}
 
-//         const carousel = document.querySelector('section:nth-of-type(3) li')
-//         const offset = -currentIndex * (images[0].offsetWidth + 10);
-//         carousel.style.transform = `translateX(${offset}px)`;
+function closeMenu() {
+    navMenu.classList.remove('open')
+    console.log('hamburgermenu is gesloten')
+}
 
-//     }
-    
-//     setInterval(showNextImage, 500);
-
+hamburgerButton.addEventListener('click', openMenu)
+closeButton.addEventListener('click', closeMenu)
