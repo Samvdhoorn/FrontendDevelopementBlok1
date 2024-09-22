@@ -119,12 +119,19 @@ header li {
     list-style: none;
 }
 
+header li img {
+    width: 1em;
+}
+
+
+
 header button:nth-of-type(2), header button:last-of-type {
-    width: 3em;
-    background-color: #8fc78f;
+    width: 2.75em;
+    background: none;
     padding: 0.5em;
     border-radius: 0.5em;
-}
+    margin-left: 1.5em;
+}  
 
 /* Verberg het navigatiemenu standaard */
 #nav-menu {
@@ -146,6 +153,7 @@ header button:nth-of-type(2), header button:last-of-type {
     max-height: 500px; 
     top: 1.5em;
     left: 0;
+    
 }
 
 
@@ -343,10 +351,16 @@ footer a{
     font-family: Roboto Mono, sans-serif;
     list-style: none;
     text-decoration: none;
-    font-weight: 100;
-    font-size: 0.75em;
+    font-weight: 200;
+    font-size: 0.8em;
     color: #7a7a7a;
     margin-top: 0;
+}
+
+footer li {
+    margin: 0;
+    padding: 0;
+    line-height: 0.9em;
 }
 
 footer button {
@@ -395,5 +409,4 @@ footer section:last-of-type p {
     background-color: #fbfbfc;
     margin-top: 2em;
 }
-
 
