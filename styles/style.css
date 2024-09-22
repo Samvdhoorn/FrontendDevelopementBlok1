@@ -10,7 +10,6 @@ img {
 }
 
 p {
-    /* font-family: 'lft-etica-mono', Roboto, sans-serif; */
     font-family: Roboto Mono, sans-serif;
     font-weight: 200;
     font-size: 0.75em;
@@ -19,6 +18,11 @@ p {
     padding-right: 2em;
     padding-left: 2em;
 }
+
+a {
+    font-family: Roboto Mono, sans-serif;
+}
+
 
 h2 {
     font-size: 1.4em;
@@ -304,37 +308,26 @@ section:nth-of-type(2)>article:nth-of-type(3) button {
 
 
 
-
 /*************************************************************************************************
-3e section
+Footer
 **************************************************************************************************/
 
-section:nth-of-type(3) li {
+footer section:first-of-type li {
     list-style: none;
     display: flex;
     overflow: auto;
 }
 
-section:nth-of-type(3) li img {
+footer section:first-of-type li img {
     width: 10em;
     margin: 0.5em;
 }
 
 
-section:nth-of-type(3) li img {
-    width: 10em;
-    margin: 0.5em;
-}
-
-section:nth-of-type(3)>article button {
+footer section:first-of-type button {
     width: 19em;
     margin-bottom: 5em;
 }
-
-
-/*************************************************************************************************
-Footer
-**************************************************************************************************/
 
 h3 {
     font-family: Roboto Mono, sans-serif;
@@ -360,14 +353,14 @@ footer a{
 footer li {
     margin: 0;
     padding: 0;
-    line-height: 0.9em;
+    line-height: 1.75em;
 }
 
 footer button {
     width: 19em;
 }
 
-footer section:first-of-type button {
+footer section:nth-of-type(2) button {
     width: 11em;
     height: 3em;
     text-align: center;
@@ -375,11 +368,11 @@ footer section:first-of-type button {
     background-color: #333333;
 }
 
-footer section:first-of-type button:hover {
+footer section:nth-of-type(2) button:hover {
     transform: none;
 }
 
-footer section:first-of-type {
+footer section:nth-of-type(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -410,3 +403,57 @@ footer section:last-of-type p {
     margin-top: 2em;
 }
 
+footer section:nth-of-type(4) svg {
+    width: 1.75em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    fill: #8fc78f;
+}
+
+
+
+
+
+/*************************************************************************************************
+menu.html 
+**************************************************************************************************/
+
+/*************************************************************************************************
+1e section
+**************************************************************************************************/
+
+.menu-body section:first-of-type div {
+    display: flex;
+    flex-direction: column;
+    background-color: #8fc78f;
+    margin-top: 0;
+    align-items: center;
+}
+
+.menu-body img:first-of-type {
+    margin-bottom: 0;
+}
+
+.menu-body section:first-of-type li {
+    list-style: none;
+}
+
+.menu-body section:first-of-type li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.75em;
+    font-weight: 200;
+}
+
+.menu-body h1 {
+    font-family: Roboto Mono, sans-serif;
+    padding: 0.75em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.75em;
+}
+
+.menu-body section:first-of-type button {
+    background-color: #ffffff;
+    color: #8fc78f;
+}
