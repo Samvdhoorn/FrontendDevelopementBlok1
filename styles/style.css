@@ -414,6 +414,9 @@ footer section:nth-of-type(4) svg {
 
 
 
+
+
+
 /*************************************************************************************************
 menu.html 
 **************************************************************************************************/
@@ -422,28 +425,6 @@ menu.html
 1e section
 **************************************************************************************************/
 
-.menu-body section:first-of-type div {
-    display: flex;
-    flex-direction: column;
-    background-color: #8fc78f;
-    margin-top: 0;
-    align-items: center;
-}
-
-.menu-body img:first-of-type {
-    margin-bottom: 0;
-}
-
-.menu-body section:first-of-type li {
-    list-style: none;
-}
-
-.menu-body section:first-of-type li a {
-    text-decoration: none;
-    color: white;
-    font-size: 0.75em;
-    font-weight: 200;
-}
 
 .menu-body h1 {
     font-family: Roboto Mono, sans-serif;
@@ -453,7 +434,118 @@ menu.html
     font-size: 1.75em;
 }
 
+.menu-body main section:first-of-type {
+    background-color: #8fc78f;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    
+}
+
+.menu-body main section:first-of-type li {
+    list-style: none;
+}
+
+.menu-body main section:first-of-type li a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.85em;
+    font-weight: 200;
+    border-right: 1px solid #ffffff;
+    padding: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
 .menu-body section:first-of-type button {
     background-color: #ffffff;
     color: #8fc78f;
+    font-size: 0.7em;
+    padding: 1em;
+    width: 27em;
+}
+
+.menu-body main section:first-of-type div {
+    flex-wrap: wrap;
+}
+
+.menu-body main section:first-of-type img {
+    width: 22em;
+}
+
+/*************************************************************************************************
+sections met alle gerechten
+**************************************************************************************************/
+
+.menu-body section article img {
+    width: 23em;
+    margin: 0;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+.menu-body section article p {
+    text-align: start;
+    font-size: 0.8em;
+    padding: 1em;
+    padding-top: 0;
+    font-weight: 400;
+}
+
+.menu-body section article p:first-of-type {
+    font-weight: 400;
+    color: #333333;
+    padding-top: 0.25em;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.menu-body section article img:first-of-type, img:nth-of-type(2) {
+    width: 23em;
+    margin: 0;
+    box-shadow: none;
+    margin-top: 1em;
+}
+
+
+/*************************************************************************************************
+laatste section over allergeneninfo + footer aanpassing door overschrijving
+**************************************************************************************************/
+
+.menu-body main section:last-of-type {
+    background-color: #8fc78f;
+    padding: 1em;
+    margin: 0.5em;
+    margin-top: 7em;
+    margin-bottom: 8em;
+}
+
+.menu-body main section:last-of-type h3 {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 300;
+    margin-top: 1.75em;
+}
+
+.menu-body main section:last-of-type button {
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 0.25em;
+    width: 7.5em;
+    height: 3em;
+    text-align: center;
+    padding: 0;
+    background-color: transparent;
+    font-size: 0.8em;
+    margin-top: 0;
+}
+
+.menu-body footer section:first-of-type button {
+    width: 20em;
+    margin-bottom: 5em;
+    padding: 1.25em;
+    background-color: #8fc78f;
+    color: white;
+    font-size: 0.8em;
+
 }

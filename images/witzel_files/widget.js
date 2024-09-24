@@ -1,0 +1,2 @@
+(()=>{if(!document.getElementById("gifty-sandbox")){var t=document.createElement("script");t.type="text/javascript",t.id="gifty-sandbox",t.async=!0,t.src="https://static.gifty.nl/js/main.js",document.head.appendChild(t)}})();
+//# sourceMappingURL=widget.js.map
