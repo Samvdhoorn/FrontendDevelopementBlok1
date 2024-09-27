@@ -33,7 +33,7 @@ h2 {
     margin-top: 2em;
 }
 
-body div {
+main section:nth-of-type(2)>article:nth-of-type(1) div {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -137,8 +137,9 @@ header button:nth-of-type(2), header button:last-of-type {
     margin-left: 1.5em;
 }  
 
-/* Verberg het navigatiemenu standaard */
-#nav-menu {
+
+
+header nav {
     /* display: none; */
     position: absolute;
     top: 1.5em;
@@ -151,15 +152,12 @@ header button:nth-of-type(2), header button:last-of-type {
     max-height: 0;
 }
 
-/* Menu zichtbaar maken wanneer het de klasse "open" heeft */
-#nav-menu.open {
+header nav.open {
     display: block;
     max-height: 500px; 
     top: 1.5em;
     left: 0;
-    
 }
-
 
 header {
     display: grid;
@@ -190,7 +188,7 @@ header button:first-of-type {
     justify-self: center;
 }
 
-#nav-menu {
+header nav {
     z-index: 15;
 }
 
@@ -210,16 +208,17 @@ border-color: #8fc78f;
 
 
 
+
 /*************************************************************************************************
 2e section
 **************************************************************************************************/
 
 
 /**********
-1e article >>>
+1e article responsive
 ***********/
 
-@media (min-width: 50em) {
+@media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -232,7 +231,7 @@ section:nth-of-type(2)>article:first-of-type div {
 }
 
 
-@media (min-width: 50em) {
+@media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type div {
         display: flex;
         flex-direction: column;
@@ -241,7 +240,7 @@ section:nth-of-type(2)>article:first-of-type div {
     }
     }
 
-@media (min-width: 50em) {
+@media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type h2 {
         grid-column-start: 1;
         position: relative;
@@ -249,20 +248,21 @@ section:nth-of-type(2)>article:first-of-type div {
     }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type p {
         grid-column-start: 1;
         padding: 0 13em 2em 13em;
+        padding: 1em;
     }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type button {
         grid-column-start: 1;
     }
 }
 
-@media (min-width: 50em) {
+@media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type img {
         grid-column-start: 2;
         grid-row-start: 1;
@@ -291,7 +291,7 @@ section:nth-of-type(2)>article:nth-of-type(2) img {
     margin: 2em;
     box-shadow: 0em 0.25em 0.5em #7a7a7a;
     margin-top: 3em;
-}
+} */
 
 /**********
 3e article >>>
@@ -425,15 +425,6 @@ menu.html
 1e section
 **************************************************************************************************/
 
-
-.menu-body h1 {
-    font-family: Roboto Mono, sans-serif;
-    padding: 0.75em;
-    color: white;
-    font-weight: 400;
-    font-size: 1.75em;
-}
-
 .menu-body main section:first-of-type {
     background-color: #8fc78f;
     display: flex;
@@ -441,11 +432,6 @@ menu.html
     max-width: 100%;
     
 }
-
-.menu-body main section:first-of-type li {
-    list-style: none;
-}
-
 .menu-body main section:first-of-type li a {
     text-decoration: none;
     color: white;
@@ -457,21 +443,57 @@ menu.html
     padding-right: 1em;
 }
 
+.menu-body main section:first-of-type li {
+    list-style: none;
+    margin-left: 0.5em;
+    
+}
+
 .menu-body section:first-of-type button {
     background-color: #ffffff;
     color: #8fc78f;
     font-size: 0.7em;
     padding: 1em;
     width: 27em;
+    margin-top: 2em;
 }
 
-.menu-body main section:first-of-type div {
-    flex-wrap: wrap;
+
+
+.menu-body main section:first-of-type button {
+    margin-left: 4em;
+}
+
+.menu-body h1 {
+    font-family: Roboto Mono, sans-serif;
+    padding: 0.75em;
+    color: white;
+    font-weight: 400;
+    font-size: 1.75em;
 }
 
 .menu-body main section:first-of-type img {
     width: 22em;
+    margin-left: 1em;
+    margin-top: 1em;
+    grid-column-start: 1;
 }
+
+.menu-body main section:first-of-type {
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 1fr  1fr;
+}
+
+.menu-body main section:first-of-type div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    grid-column-start: 1;
+}  
+
+
 
 /*************************************************************************************************
 sections met alle gerechten
@@ -548,4 +570,153 @@ laatste section over allergeneninfo + footer aanpassing door overschrijving
     color: white;
     font-size: 0.8em;
 
+}
+
+/*************************************************************************************************
+Responsive tablet formaat homepage main
+**************************************************************************************************/
+
+@media (min-width: 768px) {
+    section:nth-of-type(2)>article:nth-of-type(2){
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    section:nth-of-type(2)>article:nth-of-type(2) div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 768px) {
+    section:nth-of-type(2)>article:nth-of-type(2) div {
+        grid-column-start: 1;
+        grid-row-start: 1;
+    }
+}
+
+@media (min-width: 768px) {
+    section:nth-of-type(2)>article:nth-of-type(2) div {
+        padding: 3em;
+    }
+}
+
+@media (min-width: 768px) {
+    main section:first-of-type img {
+        width: 11em;
+        max-height: 11em;
+        margin-top: 6em;
+        margin-bottom: 6em;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    main section:first-of-type div {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+/*************************************************************************************************
+Responsive footer ipad
+**************************************************************************************************/
+
+@media (min-width: 768px) {
+    footer article {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 2fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 768px) {
+    footer section:first-of-type {
+        grid-column-start: 1;
+        grid-column-end: -1;
+       
+    }
+}
+
+@media (min-width: 768px) {
+    footer section:last-of-type {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+}
+
+
+@media (min-width: 768px) {
+    footer section:nth-of-type(2){
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+}
+
+@media (min-width: 768px) {
+    footer section:nth-of-type(3){
+        grid-column-start: 1;
+        grid-row-start: 3;
+    }
+}
+
+@media (min-width: 768px) {
+    footer section:nth-of-type(4){
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+}
+
+/*************************************************************************************************
+Responsive footer desktop
+**************************************************************************************************/
+@media (min-width: 1025px){
+    footer article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1025px) {
+    footer section:first-of-type {
+        grid-column-start: 1;
+        grid-column-end: -1;
+       
+    }
+} 
+
+@media (min-width: 1025px) {
+    footer section:nth-of-type(2){
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+}
+
+@media (min-width: 1025px) {
+    footer section:nth-of-type(3){
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+}
+
+@media (min-width: 1025px) {
+    footer section:nth-of-type(4){
+        grid-column-start: 2;
+        grid-row-start: 2;
+    }
+}
+
+@media (min-width: 1025px) {
+    footer section:last-of-type {
+        grid-column-start: 1;
+        grid-row-start: 2;
+    }
+}
+
+footer article li {
+    list-style: none;
 }

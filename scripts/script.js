@@ -1,9 +1,9 @@
 // JavaScript Document
 console.log("hi");
 
-const hamburgerButton = document.querySelector('.hamburger-button')
-const closeButton = document.querySelector('.close-button')
-const navMenu = document.querySelector('#nav-menu')
+const hamburgerButton = document.querySelector('header button:nth-of-type(2)')
+const closeButton = document.querySelector('[class="close-button"]')
+const navMenu = document.querySelector('[id="nav-menu"]')
 
 function openMenu() {
     navMenu.classList.add('open')
