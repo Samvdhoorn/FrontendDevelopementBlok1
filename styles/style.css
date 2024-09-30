@@ -219,7 +219,7 @@ border-color: #8fc78f;
 ***********/
 
 @media (min-width: 768px) {
-    section:nth-of-type(2)>article:first-of-type {
+    .home-body section:nth-of-type(2)>article:first-of-type {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin-left: 0em;
@@ -311,6 +311,10 @@ section:nth-of-type(2)>article:nth-of-type(2) img {
 /**********
 4e article >>>
 ***********/
+
+.home-body section:nth-of-type(2)>article:nth-of-type(4) img {
+    width: 0em;
+}
 
 section:nth-of-type(2)>article:nth-of-type(4) h2 {
     margin-top: 5em;
@@ -627,7 +631,7 @@ Responsive tablet formaat homepage main
 **************************************************************************************************/
 
 @media (min-width: 768px) {
-    section:nth-of-type(2)>article:nth-of-type(2){
+    .home-body section:nth-of-type(2)>article:nth-of-type(2){
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -679,7 +683,7 @@ Responsive footer ipad
     footer article {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 2fr 1fr 1fr;
+        grid-template-rows: 1fr 0.5fr 0.5fr;
     }
 }
 
@@ -823,9 +827,150 @@ Responsive header tablet
 Responsive header desktop
 **************************************************************************************************/
 
-   
+/*************************************************************************************************
+Responsive menu tablet
+**************************************************************************************************/
+
+@media (min-width: 768px) {
+    .menu-body main section article {
+       margin: 0.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section article p {
+       line-height: 1.5em;
+       margin-bottom: 1em;
+       margin-top: 0.5em;
+       padding-left: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section article p:last-of-type {
+       line-height: 1.5em;
+       font-weight: 150;
+    }
+}
 
 
+/***********************
+seizoensspecialiteiten
+************************/
 
 
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(2) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+    }
+}
 
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(2) h2 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        margin-bottom: 0;
+        margin-top: 3em;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(2) article:first-of-type p {
+        padding-left: 0;
+    }
+}
+
+
+/***********************
+specialiteiten
+************************/
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(3) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(3) h2 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        margin-bottom: 0;
+        margin-top: 3em;
+    }
+}
+
+/***********************
+stel je eigen bowl samen
+************************/
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(4) article {
+        margin-bottom: 0;
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(4) article img {
+        width: 15em;
+    }
+}
+
+
+/***********************
+bijgerechten
+************************/
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(5) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(5) h2 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        margin-bottom: 0;
+        margin-top: 3em;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(5) article:last-of-type {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+    }
+}
+
+/***********************
+Deserts
+************************/
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(6) {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 3fr;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:nth-of-type(6) h2 {
+        grid-column-start: 1;
+        grid-column-end: -1;
+        margin-bottom: 0;
+        margin-top: 3em;
+    }
+}
