@@ -13,7 +13,7 @@ p {
     font-family: Roboto Mono, sans-serif;
     font-weight: 200;
     font-size: 0.75em;
-    color: #7a7a7a;
+    color: var(--grijs);
     line-height: 2;
     padding-right: 2em;
     padding-left: 2em;
@@ -105,6 +105,12 @@ article:nth-of-type(2) button {
     margin-bottom: 4em;
 }
 
+:root {
+    --groen:#8fc78f;
+    --grijs: #7a7a7a;
+    --zwart: #333333;
+}
+
 /**************************************************************************************************
 Hamburger menu
 ***************************************************************************************************/
@@ -115,7 +121,7 @@ header li a {
    border-bottom: 1px solid lightgray;
    display: block;
    padding: 1em;
-   color: #333333;
+   color: var(--zwart);
    font-weight: 200;
 }
 
@@ -140,12 +146,11 @@ header button:nth-of-type(2), header button:last-of-type {
 
 
 header nav {
-    /* display: none; */
     position: absolute;
     top: 1.5em;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: white;
     overflow: hidden;
     transition: 0.3s ease;
@@ -202,7 +207,7 @@ header nav {
 section:first-of-type img:hover {
 border: 0.5em solid transparent;
 border-radius: 50%;
-border-color: #8fc78f;
+border-color: var(--groen);
 }
 
 
@@ -369,7 +374,11 @@ Footer
 footer section:first-of-type li {
     list-style: none;
     display: flex;
-    overflow: auto;
+    overflow: auto;   
+}
+
+footer section:first-of-type li::-webkit-scrollbar {
+    display: none; 
 }
 
 footer section:first-of-type li img {
@@ -387,7 +396,7 @@ h3 {
     font-family: Roboto Mono, sans-serif;
     font-size: 0.9em;
     font-weight: 400;
-    color: #333333;
+    color: var(--zwart);
     margin-top: 2em;
     margin-bottom: 1em;
     margin-right: 2em;
@@ -400,7 +409,7 @@ footer a{
     text-decoration: none;
     font-weight: 200;
     font-size: 0.8em;
-    color: #7a7a7a;
+    color: var(--grijs);
     margin-top: 0;
 }
 
@@ -419,7 +428,7 @@ footer section:nth-of-type(2) button {
     height: 3em;
     text-align: center;
     padding: 0.5em;
-    background-color: #333333;
+    background-color: var(--zwart);
 }
 
 footer section:nth-of-type(2) button:hover {
@@ -436,7 +445,7 @@ footer input {
     width: 90%;
     padding: 1em;
     font-family: Roboto Mono, sans-serif;
-    color:#7a7a7a;
+    color: var(--grijs);
     font-weight: 100;
     border-radius: 0;
     border: solid 1px;
@@ -444,7 +453,7 @@ footer input {
 }
 
 footer input:focus {
-    outline: none;
+    outline-color: var(--groen);
 }
 
 footer section:last-of-type p {
@@ -461,10 +470,13 @@ footer section:nth-of-type(4) svg {
     width: 1.75em;
     margin-left: 0.75em;
     margin-right: 0.75em;
-    fill: #8fc78f;
+    fill: var(--groen);
 }
 
-
+footer section:first-of-type img:hover {
+    border: none;
+border-radius: 0%;
+}
 
 
 
@@ -480,7 +492,7 @@ menu.html
 **************************************************************************************************/
 
 .menu-body main section:first-of-type {
-    background-color: #8fc78f;
+    background-color: var(--groen);
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
@@ -570,7 +582,7 @@ sections met alle gerechten
 
 .menu-body section article p:first-of-type {
     font-weight: 400;
-    color: #333333;
+    color: var(--zwart);
     padding-top: 0.25em;
     padding-bottom: 0;
     margin-bottom: 0;
@@ -620,7 +632,7 @@ laatste section over allergeneninfo + footer aanpassing door overschrijving
     width: 20em;
     margin-bottom: 5em;
     padding: 1.25em;
-    background-color: #8fc78f;
+    background-color: var(--groen);
     color: white;
     font-size: 0.8em;
 
@@ -672,6 +684,22 @@ Responsive tablet formaat homepage main
     main section:first-of-type div {
         display: flex;
         justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 768px) {
+    main img:first-of-type {
+        width: 100%;
+    max-height: 22em;
+    object-fit: cover;
+    }
+}
+
+@media (min-width: 1025px) {
+    main img:first-of-type {
+        width: 100%;
+    max-height: 43em;
+    object-fit: cover;
     }
 }
 
@@ -776,7 +804,7 @@ footer article li {
 }
 
 /*************************************************************************************************
-Responsive header tablet
+Responsive header tablet & desktop
 **************************************************************************************************/
 
 @media (min-width: 768px) {
@@ -822,10 +850,14 @@ Responsive header tablet
         }
     }
 
+@media (min-width: 1025px) {
+        header {
+           padding: 1.75em;
+        }
+    }
 
-/*************************************************************************************************
-Responsive header desktop
-**************************************************************************************************/
+
+
 
 /*************************************************************************************************
 Responsive menu 
@@ -853,6 +885,8 @@ Responsive menu
     }
 }
 
+
+
 @media (min-width: 1281px) {
     .menu-body section article img:first-of-type, img:nth-of-type(2) {
         width: 28em;
@@ -878,6 +912,87 @@ Responsive menu
        font-size: 0.85em;
     }
 }
+
+
+
+/***********************
+Menu section
+************************/
+
+@media (min-width: 768px) {
+    .menu-body main section:first-of-type {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:first-of-type img:hover {
+        border: none;
+        border-radius: 0%;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:first-of-type div { 
+        width: 60%;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:first-of-type img { 
+        margin: 0;
+        width: 40%;
+        padding-right: 2em;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .menu-body main section:first-of-type button { 
+        margin-left: 1.5em;
+        margin-bottom: 2em;
+        width: 35em;
+        height: 4em;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main section:first-of-type h1 { 
+        font-size: 2.5em;
+        text-align: start;
+        padding-left: 0.5em;
+    }
+}
+
+@media (min-width: 768px) {
+    .menu-body main article:first-of-type img {
+        width: 100%;
+        max-height: 15em;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1025px) {
+    .menu-body main article:first-of-type img {
+        width: 100%;
+        max-height: 25em;
+        object-fit: cover;
+    }
+}
+
+
+.menu-body main section:first-of-type li { 
+        display: inline-block;
+    }
+
+@media (max-width: 768px) {
+    .menu-body main section:first-of-type {
+        display: flex;
+    }
+}
+
 
 
 
@@ -1064,3 +1179,119 @@ Deserts
         margin-top: 4em;
     }
 }
+
+/*************************************************************************************************
+Responsive homepage desktop overige elementen
+**************************************************************************************************/
+
+@media (min-width: 1281px) {
+    .home-body main section:first-of-type img {
+        max-height: 20em;
+        width: 18em;
+    }
+}
+
+/**************************
+poke rewards
+****************************/
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2) img {
+        width: 23em;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2) div {
+        padding: 3em;
+    }
+}
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2) p {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2) h2 {
+        font-size: 2em;
+    }
+}
+
+.home-body main section img[src="images/groentes.jpg"] {
+    width: 100%;
+    max-height: 30em;
+    object-fit: cover;
+}
+
+/**************************
+poke kookboek
+****************************/
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2)>article:nth-of-type(2) div {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2)>article:nth-of-type(2) img {
+        width: 22em;
+    }
+}
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2)>article:nth-of-type(2) {
+        padding: 2em;
+    }
+}
+
+/**************************
+ons verhaal
+****************************/
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2)>article:nth-of-type(4) {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2)>article:nth-of-type(4) div {
+        margin-right: 3em;
+    }
+}
+
+@media (min-width: 1281px) {
+    .home-body main section:nth-of-type(2)>article:nth-of-type(4) img {
+        margin-top: 8em;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        margin-left: 6em; 
+ }
+}
+
+/**************************
+header navigatie responsive
+****************************/
+
+/* @media (min-width: 1025px) {
+    header button:nth-of-type(2) {
+        display: none;
+    }
+}
+ */
+
+ @media (min-width: 1025px) {
+    header {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1fr;
+    }
+ }
+
