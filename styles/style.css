@@ -850,11 +850,6 @@ Responsive header tablet & desktop
         }
     }
 
-@media (min-width: 1025px) {
-        header {
-           padding: 1.75em;
-        }
-    }
 
 
 
@@ -1281,12 +1276,6 @@ ons verhaal
 header navigatie responsive
 ****************************/
 
-/* @media (min-width: 1025px) {
-    header button:nth-of-type(2) {
-        display: none;
-    }
-}
- */
 
  @media (min-width: 1025px) {
     header {
