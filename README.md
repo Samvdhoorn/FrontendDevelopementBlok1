@@ -42,12 +42,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   #### Screenshot(s) van de eerste pagina (small screen): 
   De Poké Perfect Homepage:
   <img src="readme-images/screenshot-h1.png" width="375px" alt="homepage poké perfect">
+  <img src="readme-images/screenshot-h2.png" width="375px" alt="homepage poké perfect">
+  <img src="readme-images/screenshot-h3.png" width="375px" alt="homepage poké perfect">
+  <img src="readme-images/screenshot-h4.png" width="375px" alt="homepage poké perfect">
+  <img src="readme-images/screenshot-h5.png" width="375px" alt="homepage poké perfect">
   
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  De Poké Perfect Menu-pagina: 
+  <img src="readme-images/screenshot-m1.png" width="375px" alt="menu pagina">
+  <img src="readme-images/screenshot-m2.png" width="375px" alt="menu pagina">
+  <img src="readme-images/screenshot-m3.png" width="375px" alt="menu pagina">
+  <img src="readme-images/screenshot-m4.png" width="375px" alt="menu pagina">
+  <img src="readme-images/screenshot-m5.png" width="375px" alt="menu pagina">
+
  
 </details>
 
@@ -61,6 +70,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+Over het algemeen was de website redelijk goed te navigeren met de screenreader, maar ik kwam toch tegen problemen aan. Hoewel de structuur van de site in de meeste gevallen logisch is opgebouwd, was de voice-over niet altijd even duidelijk. Dit zag je vooral bij buttons die in het Engels waren geschreven, terwijl de lang="nl"-attribute werd gebruikt. Hierdoor werden Engelse zinnen zoals "Join Poké Perfect" met een zwaar Nederlands accent uitgesproken, dit was slecht te verstaan.
+
+Een ander punt dat opviel, is dat bepaalde elementen (zoals knoppen en formulieren) niet altijd goed werden aangekondigd door de screenreader. Soms werd er geen duidelijke indicatie gegeven dat een element klikbaar was, of werd de functie van de knop niet juist beschreven. 
+
+Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. Het bedienen van de site met de screenreader vond ik persoonlijk heel lastig en onduidelijk.. Dit kan deels komen door een gebrek aan ervaring hiermee, maar ik vond het niet altijd even soepel gaan.
+
+ 
+
 </details>
 
 
@@ -71,13 +88,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/homepage-wireframe.png" width="375px" alt="breakdown van de homepage">
+  <img src="readme-images/menu-wireframe.png" width="375px" alt="breakdown van de menu pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/hamburger-wirefram.png" width="375px" alt="breakdown van het uitklap-menu">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -157,7 +173,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Lijst met je bevindingen die in de test naar voren kwamen:
+De website scoorde over het algemeneen wel goed, wel waren er een aantal errors bij het valideren van de html. 
+De punten waarop Poké Perfect niet goed scoorde waren:
+- html bevatte errors
+- De focus state kwam niet oevreen met de stijl van de website en was slecht zichtbaar
+- De homepage bevat geen h1
+- Images bevatten vaak geen alt
+- De images met tekst erop (co2 hoeveelheid) bevatten geen alt attribute die deze informatie weergaf 
+- Er is een carousel van afbeeldingen die automatisch afspeelt, deze kan niet op pauze
+- Links zijn niet herkenbaar als links
+- De site gebruikt bijna nooit een button element voor knoppen, meestal een opgemaakte a link
+- Geen skip-link bij focus state
+- Geen darkmode
+- Geen high-contrast mode
+- Animaties bevatten geen prefers-reduced-motion media query
+- Geen gebruik van ::selection colors
 
 </details>
 
