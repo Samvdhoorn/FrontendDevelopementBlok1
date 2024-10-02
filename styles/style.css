@@ -197,8 +197,24 @@ header nav {
     z-index: 15;
 }
 
+/**************************************************************************************************
+Header opmaak details
+***************************************************************************************************/
 
 
+header button:first-of-type:hover {
+    transform: none;
+    transition: 0.5s;
+}
+
+
+
+.menu-body section:first-of-type button:hover {
+    transform: none;
+    background-color: var(--zwart);
+    color: white;
+    transition: 0.75s;
+}
 
 /**************************************************************************************************
 1e section
@@ -703,6 +719,11 @@ Responsive tablet formaat homepage main
     }
 }
 
+@media (min-width: 1025px) {
+    .home-body main section:nth-of-type(2) article:first-of-type {
+        padding-left: 3em;
+    }
+}
 /*************************************************************************************************
 Responsive footer ipad
 **************************************************************************************************/
@@ -849,6 +870,12 @@ Responsive header tablet & desktop
             margin-left: 1.7em;
         }
     }
+
+@media (min-width: 1025px) {
+    header img:first-of-type {
+        margin-left: 1.75em;
+    }
+}
 
 
 

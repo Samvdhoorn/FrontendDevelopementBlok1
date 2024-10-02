@@ -16,13 +16,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Sam van der Hoorn
 
   #### Je startniveau:
-  hier je startniveau (kies uit zwart, rood óf blauw)
+  blauw/rood. Ik leer het vaak wel snel maar na zo'n lange periode zonder te coderen merk ik dat het wel weer heel erg wennen en opnieuw leren is.
 
   #### Je focus:
-  hier je focus (kies uit responsive óf surface plane)
+  Ik ga focussen op het responsive maken van mijn website. Ik heb dit nog nooit gedaan en weet eigenlijk niet zo goed hoe dit precies werkt, animaties heb ik vaker gebreukt en zie ik momenteel niet zo zeer als een uitdaging als ik het vergelijk met het responsive maken van mijn website. Ik heb hiervoor gekozen omdat ik er meer van kan leren en ik benieuwd ben hoe dit precies werkt, ondanks dat ik denk dat het een stuk meer tijd gaat kosten dan het maken van animaties.
+
  
 </details>
 
@@ -36,11 +37,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  Ik ga de website van Poké Perfect namaken: https://pokeperfect.nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  De Poké Perfect Homepage:
+  <img src="readme-images/screenshot-h1.png" width="375px" alt="homepage poké perfect">
+  
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   hier de naam van de pagina  
