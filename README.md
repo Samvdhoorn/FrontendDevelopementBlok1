@@ -88,7 +88,9 @@ Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. H
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
+
   <img src="readme-images/homepage-wireframe.png" width="375px" alt="breakdown van de homepage">
+
   <img src="readme-images/menu-wireframe.png" width="375px" alt="breakdown van de menu pagina">
 
   ### dynamisch deel (bijv menu): 
@@ -146,7 +148,9 @@ De bovenstaande vragen en het antwoord:
   ### Stand van zaken
   Ik heb een groot deel van de html en ben begonnen aan het eerste deel css. Ik loop nog nergens aan vast maar moet wel tempo maken.
   Hier mijn code:
+
   <img src="readme-images/voortgang1-html.png" width="375px" alt="html in week 3">
+
   <img src="readme-images/voortgang1-css.png" width="375px" alt="css in week 3">
 
 
@@ -218,8 +222,11 @@ De punten waarop Poké Perfect niet goed scoorde waren:
   Ik heb enorm veel progressie geboekt afgelopen week, beide html pagina's zijn al bijna af. Ik heb een hamburger menu gemaakt en ben zelfs al begonnen met het oefenen van grid en responsiveness op mijn eigen website! Enorm veel geleerd afgelopen week, ben erg tevreden.
 
   Code momenteel: 
+
   <img src="readme-images/voortgang2-html.png" width="375px" alt="html in week 4">
+
   <img src="readme-images/voortgang2-menu.png" width="375px" alt="2e html in week 4">
+
   <img src="readme-images/voortgang2-css.png" width="375px" alt="css in week 4">
 
 
@@ -234,13 +241,18 @@ De punten waarop Poké Perfect niet goed scoorde waren:
   | ...            | ...                | ...          | ...              |
 
 Vragen die ik wil stellen?
-- 
+- Ik heb nu wel classes/id bij mijn hamburger menu, kan dit wel zonder?
+- Hoe kan ik een plaatje als het ware bijsnijden?
+- Moet een image op een vaste plek binnen een article staan in verband met semantische code?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   De bovenstaande vragen en het antwoord:
-  - 
+  - Ja dit kan gewoon, ik heb het nu zonder gedaan en daarnaast ook gebruik gemaakt van de attribute selector. Ik kende dit eerst nog niet maar het kan enorm handig zijn.
+  - Dit kan met de property object-fit en dan de waarde 'cover,' vervolgens stel je de hoogte of breedte van de afbeelding in en wordt de rest als het ware afgesneden.
+  - Nee, dit is in principe netter maar is niet nodig en zeker niet de moeite waard om nu nog aan te passen.
+
 
 </details>
 
@@ -254,19 +266,41 @@ Vragen die ik wil stellen?
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  
+  Menu pagina op desktop scherm:
+  <img src="readme-images/eind1.png" width="375px" alt="menu pagina desktop">
+
+Homepage op iphone scherm:
+  <img src="readme-images/eind2.png" width="375px" alt="homepage iphone">
+
+Specialiteiten section op brede weergave met grid:
+  <img src="readme-images/eind3.png" width="375px" alt="menu items met grid tijdens brede weergave">
+
+Footer op ipad scherm:
+  <img src="readme-images/eind4.png" width="375px" alt="footer bij ipad weergave">
+
+Homepage article responsive met grid:
+  <img src="readme-images/eind5.png" width="375px" alt="responsive article op de homepage">
+
+
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Eigenlijk ben ik heel tevreden over het algemeen en heb ik enorm veel geleerd. Ik ben vooral trots op de responsiveness van mijn website, dit heb ik nooit eerder gedaan en wilde dit graag leren, ik ben blij dat ik mijn focus hierop heb gelegd. Ook ben ik heel blij met het hamburger menu, ik heb hem niet alleen laten werken maar ook zo kunnen stylen dat hij vrijwel 1:1 is met die van Poké Perfect! 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Hamburgermenu van mijn website:
+  <img src="readme-images/hamburgermenu.png" width="375px" alt="afbeelding van mijn hamburger menu">
+
+Voorbeeld van het toepassen van grid:
+  <img src="readme-images/eind5.png" width="375px" alt="grid toegepast op een section met producten">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het meeste wat ik wilde maken is wel goed gelukt, maar de originele website heeft iets bijzonders dat ik niet heb. De pagina met content beweegt als het ware over de achtergrond afbeelding heen, bij mij is dit niet gelukt. Dit komt voornamelijk door een te kort aan tijd waardoor ik dit niet als eerste prioriteit zag, dus wie weet bij een volgende opdracht. Daarnaast waren er een aantal kleine details waar ik niet helemaal tevreden over was, waaronder een witruimte tussen de eerste image en de eerste section op de menu pagina. Ik kreeg deze ruinmte niet weg, wat ik ook deed. Omdat ik ook enigszins in tijdnood kwam kon ik hier ook niet verder naar onderzoeken, toch net jammer.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+
+Hier de menu pagina met ongewenste witruimte:
+  <img src="readme-images/eind1.png" width="375px" alt="afbeelding van menu pagina met ongewenste witruimte">
 </details>
 
 
