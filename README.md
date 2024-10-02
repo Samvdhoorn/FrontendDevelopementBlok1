@@ -215,7 +215,13 @@ De punten waarop Poké Perfect niet goed scoorde waren:
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb enorm veel progressie geboekt afgelopen week, beide html pagina's zijn al bijna af. Ik heb een hamburger menu gemaakt en ben zelfs al begonnen met het oefenen van grid en responsiveness op mijn eigen website! Enorm veel geleerd afgelopen week, ben erg tevreden.
+
+  Code momenteel: 
+  <img src="readme-images/voortgang2-html.png" width="375px" alt="html in week 4">
+  <img src="readme-images/voortgang2-menu.png" width="375px" alt="2e html in week 4">
+  <img src="readme-images/voortgang2-css.png" width="375px" alt="css in week 4">
+
 
 
   ### Agenda voor meeting
@@ -227,14 +233,14 @@ De punten waarop Poké Perfect niet goed scoorde waren:
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Vragen die ik wil stellen?
+- 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  De bovenstaande vragen en het antwoord:
+  - 
 
 </details>
 
