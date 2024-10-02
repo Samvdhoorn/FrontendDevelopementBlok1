@@ -107,7 +107,7 @@ Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. H
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb geoefend met de opdrachten uit de les. Dit gaat steeds erg goed, ik ben benieuwd hoe dit gaat als ik eenmaal aan mijn eigen site ben begonnen. Ik ben nog niet aan mijn html begonnen dus ik heb ook nog geen screenshots van de code.
 
 
   ### Agenda voor meeting
@@ -119,14 +119,18 @@ Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. H
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Vragen die ik wil stellen:
+- Hoe centreer je afbeeldingen en tekst? Want je hebt class container en divs nodig toch en dat mag niet..
+- Hoe doe ik een hamburger button? Mag ik ook een image (screenshot) gebruiken en er een klikbare button van maken?
+- Mag je wel classes gebruiken voor de gehele pagina voor de opmaak in css? Hoe moet dit anders??
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+De bovenstaande vragen en het antwoord:
+  - 'met flexbox of met grid, bekijk nog eens de code van de lesopdrachten over grid.' Class en divs zijn bijna niet nodig, ik weet nu hoe ik met selectors (:nth-of-type bijvoorbeeld) kan stijlen, zelfs wanneer ik normaal dacht een class te moeten gebruiken.
+  - Een image in een button zetten kan ook gewoon!
+  - ja, dit kan niet anders. Doe dit achteraf nadat je de basis css hebt gestyled, beide pagina's hebben voor een deel dezelfde styling nodig.
 
 </details>
 
@@ -140,7 +144,10 @@ Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. H
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik heb een groot deel van de html en ben begonnen aan het eerste deel css. Ik loop nog nergens aan vast maar moet wel tempo maken.
+  Hier mijn code:
+  <img src="readme-images/voortgang1-html.png" width="375px" alt="html in week 3">
+  <img src="readme-images/voortgang1-css.png" width="375px" alt="css in week 3">
 
 
   ### Agenda voor meeting
@@ -152,14 +159,20 @@ Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. H
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
   | ...            | ...                | ...          | ...              |
 
+Vragen die ik wil stellen:
+- Moet je exact hetzelde navigatie menu maken als bij je gekozen website of mag je hierin afwijken?
+- Wat is het verschil tussen div en span?
+- Mijn website beweegt op desktop formaat als het ware 'over' de achtergrond heen, moet ik dit per se namaken op die manier?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+De bovenstaande vragen en het antwoord:
+  - Nee dat hoeft niet, je mag zelf kiezen wat voor nav menu je maakt, als je maar oefent met nieuwe skills en niet een simpel navigatie menu maakt zonder flexbox, javascript of grid.
+  - <div> gebruik je op bloklevel: je krijgt de elementen onder elkaar te zien staan
+    <span> gebruik je inline: je krijgt de elementen naast elkaar te zien staan
+  - Dit hoeft niet per se, kan wel leuk zijn het is niet heel ingewikkeld.
+
 
 </details>
 
