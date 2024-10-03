@@ -40,22 +40,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Ik ga de website van Poké Perfect namaken: https://pokeperfect.nl/ 
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  De Poké Perfect Homepage:
-  <img src="readme-images/screenshot-h1.png" width="375px" alt="homepage poké perfect">
-  <img src="readme-images/screenshot-h2.png" width="375px" alt="homepage poké perfect">
-  <img src="readme-images/screenshot-h3.png" width="375px" alt="homepage poké perfect">
-  <img src="readme-images/screenshot-h4.png" width="375px" alt="homepage poké perfect">
+  De Poké Perfect Homepage: <br>
+  <img src="readme-images/screenshot-h1.png" width="375px" alt="homepage poké perfect"> <br>
+  <img src="readme-images/screenshot-h2.png" width="375px" alt="homepage poké perfect"> <br>
+  <img src="readme-images/screenshot-h3.png" width="375px" alt="homepage poké perfect"> <br>
+  <img src="readme-images/screenshot-h4.png" width="375px" alt="homepage poké perfect"> <br>
   <img src="readme-images/screenshot-h5.png" width="375px" alt="homepage poké perfect">
   
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  De Poké Perfect Menu-pagina: 
-  <img src="readme-images/screenshot-m1.png" width="375px" alt="menu pagina">
-  <img src="readme-images/screenshot-m2.png" width="375px" alt="menu pagina">
-  <img src="readme-images/screenshot-m3.png" width="375px" alt="menu pagina">
-  <img src="readme-images/screenshot-m4.png" width="375px" alt="menu pagina">
-  <img src="readme-images/screenshot-m5.png" width="375px" alt="menu pagina">
+  De Poké Perfect Menu-pagina: <br>
+  <img src="readme-images/screenshot-m1.png" width="375px" alt="menu pagina"> <br>
+  <img src="readme-images/screenshot-m2.png" width="375px" alt="menu pagina"> <br>
+  <img src="readme-images/screenshot-m3.png" width="375px" alt="menu pagina"> <br>
+  <img src="readme-images/screenshot-m4.png" width="375px" alt="menu pagina"> <br>
+  <img src="readme-images/screenshot-m5.png" width="375px" alt="menu pagina"> <br>
 
  
 </details>
@@ -89,11 +89,11 @@ Daarnaast waren er momenten waarop ik moeite had om het overzicht te behouden. H
 
   ### de hele pagina: 
 
-  <img src="readme-images/homepage-wireframe.png" width="375px" alt="breakdown van de homepage">
+  <img src="readme-images/homepage-wireframe.png" width="375px" alt="breakdown van de homepage"> <br>
 
-  <img src="readme-images/menu-wireframe.png" width="375px" alt="breakdown van de menu pagina">
+  <img src="readme-images/menu-wireframe.png" width="375px" alt="breakdown van de menu pagina"> <br>
 
-  ### dynamisch deel (bijv menu): 
+  ### dynamisch deel (bijv menu):  <br>
   <img src="readme-images/hamburger-wirefram.png" width="375px" alt="breakdown van het uitklap-menu">
 
 
@@ -147,9 +147,9 @@ De bovenstaande vragen en het antwoord:
 
   ### Stand van zaken
   Ik heb een groot deel van de html en ben begonnen aan het eerste deel css. Ik loop nog nergens aan vast maar moet wel tempo maken.
-  Hier mijn code:
+  Hier mijn code: <br>
 
-  <img src="readme-images/voortgang1-html.png" width="375px" alt="html in week 3">
+  <img src="readme-images/voortgang1-html.png" width="375px" alt="html in week 3"> <br>
 
   <img src="readme-images/voortgang1-css.png" width="375px" alt="css in week 3">
 
@@ -221,13 +221,13 @@ De punten waarop Poké Perfect niet goed scoorde waren:
   ### Stand van zaken
   Ik heb enorm veel progressie geboekt afgelopen week, beide html pagina's zijn al bijna af. Ik heb een hamburger menu gemaakt en ben zelfs al begonnen met het oefenen van grid en responsiveness op mijn eigen website! Enorm veel geleerd afgelopen week, ben erg tevreden.
 
-  Code momenteel: 
+  Code momenteel: <br>
 
-  <img src="readme-images/voortgang2-html.png" width="375px" alt="html in week 4">
+  <img src="readme-images/voortgang2-html.png" width="375px" alt="html in week 4"> <br>
 
-  <img src="readme-images/voortgang2-menu.png" width="375px" alt="2e html in week 4">
+  <img src="readme-images/voortgang2-menu.png" width="375px" alt="2e html in week 4"> <br>
 
-  <img src="readme-images/voortgang2-css.png" width="375px" alt="css in week 4">
+  <img src="readme-images/voortgang2-css.png" width="375px" alt="css in week 4"> <br>
 
 
 
@@ -267,19 +267,19 @@ Vragen die ik wil stellen?
 
   ### Je uitkomst - karakteristiek screenshots:
   
-  Menu pagina op desktop scherm:
+  Menu pagina op desktop scherm: <br>
   <img src="readme-images/eind1.png" width="375px" alt="menu pagina desktop">
 
-Homepage op iphone scherm:
+Homepage op iphone scherm: <br>
   <img src="readme-images/eind2.png" width="375px" alt="homepage iphone">
 
-Specialiteiten section op brede weergave met grid:
+Specialiteiten section op brede weergave met grid: <br>
   <img src="readme-images/eind3.png" width="375px" alt="menu items met grid tijdens brede weergave">
 
-Footer op ipad scherm:
+Footer op ipad scherm: <br>
   <img src="readme-images/eind4.png" width="375px" alt="footer bij ipad weergave">
 
-Homepage article responsive met grid:
+Homepage article responsive met grid: <br>
   <img src="readme-images/eind5.png" width="375px" alt="responsive article op de homepage">
 
 
@@ -288,10 +288,10 @@ Homepage article responsive met grid:
   ### Dit ging goed/Heb ik geleerd: 
   Eigenlijk ben ik heel tevreden over het algemeen en heb ik enorm veel geleerd. Ik ben vooral trots op de responsiveness van mijn website, dit heb ik nooit eerder gedaan en wilde dit graag leren, ik ben blij dat ik mijn focus hierop heb gelegd. Ook ben ik heel blij met het hamburger menu, ik heb hem niet alleen laten werken maar ook zo kunnen stylen dat hij vrijwel 1:1 is met die van Poké Perfect! 
 
-Hamburgermenu van mijn website:
+Hamburgermenu van mijn website: <br>
   <img src="readme-images/hamburgermenu.png" width="375px" alt="afbeelding van mijn hamburger menu">
 
-Voorbeeld van het toepassen van grid:
+Voorbeeld van het toepassen van grid: <br>
   <img src="readme-images/eind5.png" width="375px" alt="grid toegepast op een section met producten">
 
 
@@ -299,7 +299,7 @@ Voorbeeld van het toepassen van grid:
   Het meeste wat ik wilde maken is wel goed gelukt, maar de originele website heeft iets bijzonders dat ik niet heb. De pagina met content beweegt als het ware over de achtergrond afbeelding heen, bij mij is dit niet gelukt. Dit komt voornamelijk door een te kort aan tijd waardoor ik dit niet als eerste prioriteit zag, dus wie weet bij een volgende opdracht. Daarnaast waren er een aantal kleine details waar ik niet helemaal tevreden over was, waaronder een witruimte tussen de eerste image en de eerste section op de menu pagina. Ik kreeg deze ruinmte niet weg, wat ik ook deed. Omdat ik ook enigszins in tijdnood kwam kon ik hier ook niet verder naar onderzoeken, toch net jammer.
 
 
-Hier de menu pagina met ongewenste witruimte:
+Hier de menu pagina met ongewenste witruimte: <br>
   <img src="readme-images/eind1.png" width="375px" alt="afbeelding van menu pagina met ongewenste witruimte">
 </details>
 
@@ -316,8 +316,12 @@ Hier de menu pagina met ongewenste witruimte:
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. https://www.w3schools.com/howto/howto_js_mobile_navbar.asp
+  2. https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design <br>
+  3. <img src="readme-images/list-breedte.png" width="375px" alt="screenshot ChatGPT"> <br>
+  4. <img src="readme-images/alles-behalve.png" width="375px" alt="screenshot ChatGPT"> <br>
+  5. <img src="readme-images/grid-vraag.png" width="375px" alt="screenshot ChatGPT"> <br>
+  6. <img src="readme-images/javascript-vraag.png" width="375px" alt="screenshot ChatGPT"> <br>
+  7. <img src="readme-images/focus.png" width="375px" alt="screenshot ChatGPT">
 
 </details>

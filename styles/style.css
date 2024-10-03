@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +5,7 @@
 }
 
 :root {
-    --groen:#8fc78f;
+    --groen: #8fc78f;
     --grijs: #7a7a7a;
     --zwart: #333333;
 }
@@ -83,7 +82,8 @@ header button {
 }
 
 
-section, article {
+section,
+article {
     text-align: center;
 }
 
@@ -114,19 +114,27 @@ article:nth-of-type(2) button {
     margin-bottom: 4em;
 }
 
+:focus {
+    outline: none; 
+}
+
+:focus-visible {
+    outline: 2px solid var(--grijs); 
+    border-radius: 0.25em;
+}
 
 /**************************************************************************************************
 Hamburger menu
 ***************************************************************************************************/
 header li a {
-   font-family: Roboto Mono, sans-serif;
-   font-size: 0.9em;
-   text-decoration: none;
-   border-bottom: 1px solid lightgray;
-   display: block;
-   padding: 1em;
-   color: var(--zwart);
-   font-weight: 200;
+    font-family: Roboto Mono, sans-serif;
+    font-size: 0.9em;
+    text-decoration: none;
+    border-bottom: 1px solid lightgray;
+    display: block;
+    padding: 1em;
+    color: var(--zwart);
+    font-weight: 200;
 }
 
 header li {
@@ -139,13 +147,14 @@ header li img {
 
 
 
-header button:nth-of-type(2), header button:last-of-type {
+header button:nth-of-type(2),
+header button:last-of-type {
     width: 2.75em;
     background: none;
     padding: 0.5em;
     border-radius: 0.5em;
     margin-left: 1.5em;
-}  
+}
 
 
 
@@ -163,7 +172,7 @@ header nav {
 
 header nav.open {
     display: block;
-    max-height: 500px; 
+    max-height: 500px;
     top: 1.5em;
     left: 0;
 }
@@ -174,7 +183,7 @@ header {
     align-items: center;
     margin-top: 1.3em;
     z-index: 10;
-   
+
 }
 
 header button:nth-of-type(2) {
@@ -229,9 +238,9 @@ header h1 {
 ***************************************************************************************************/
 
 section:first-of-type img:hover {
-border: 0.5em solid transparent;
-border-radius: 50%;
-border-color: var(--groen);
+    border: 0.5em solid transparent;
+    border-radius: 50%;
+    border-color: var(--groen);
 }
 
 
@@ -256,8 +265,8 @@ border-color: var(--groen);
 }
 
 section:nth-of-type(2)>article:first-of-type div {
-   display: flex;
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -268,7 +277,7 @@ section:nth-of-type(2)>article:first-of-type div {
         margin: 0em;
         justify-content: flex-start;
     }
-    }
+}
 
 @media (min-width: 768px) {
     section:nth-of-type(2)>article:first-of-type h2 {
@@ -305,7 +314,7 @@ section:nth-of-type(2)>article:first-of-type img {
     margin: 2em;
     box-shadow: 0em 0.25em 0.5em #7a7a7a;
     margin-bottom: 4.5em;
-    
+
 }
 
 
@@ -327,7 +336,7 @@ section:nth-of-type(2)>article:nth-of-type(2) img {
     margin: 2em;
     box-shadow: 0em 0.25em 0.5em #7a7a7a;
     margin-top: 3em;
-} 
+}
 
 @media (min-width: 768px) {
     .home-body main section:nth-of-type(2)>article:nth-of-type(3) img {
@@ -391,6 +400,7 @@ section:nth-of-type(2)>article:nth-of-type(4) button {
         margin-top: 3em;
     }
 }
+
 /*************************************************************************************************
 Footer
 **************************************************************************************************/
@@ -398,11 +408,11 @@ Footer
 footer section:first-of-type li {
     list-style: none;
     display: flex;
-    overflow: auto;   
+    overflow: auto;
 }
 
 footer section:first-of-type li::-webkit-scrollbar {
-    display: none; 
+    display: none;
 }
 
 footer section:first-of-type li img {
@@ -427,7 +437,7 @@ h3 {
     margin-left: 2em;
 }
 
-footer a{
+footer a {
     font-family: Roboto Mono, sans-serif;
     list-style: none;
     text-decoration: none;
@@ -499,7 +509,7 @@ footer section:nth-of-type(4) svg {
 
 footer section:first-of-type img:hover {
     border: none;
-border-radius: 0%;
+    border-radius: 0%;
 }
 
 
@@ -524,8 +534,9 @@ menu.html
     display: flex;
     flex-wrap: wrap;
     max-width: 100%;
-    
+
 }
+
 .menu-body main section:first-of-type li a {
     text-decoration: none;
     color: white;
@@ -540,7 +551,7 @@ menu.html
 .menu-body main section:first-of-type li {
     list-style: none;
     margin-left: 0.5em;
-    
+
 }
 
 .menu-body section:first-of-type button {
@@ -576,7 +587,7 @@ menu.html
 .menu-body main section:first-of-type {
     display: grid;
     grid-template-rows: 3fr 1fr;
-    grid-template-columns: 1fr  1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 .menu-body main section:first-of-type div {
@@ -585,7 +596,7 @@ menu.html
     align-items: flex-start;
     text-align: start;
     grid-column-start: 1;
-}  
+}
 
 .menu-body section:first-of-type li a:hover {
     color: var(--grijs);
@@ -618,7 +629,8 @@ sections met alle gerechten
     margin-bottom: 0;
 }
 
-.menu-body section article img:first-of-type, img:nth-of-type(2) {
+.menu-body section article img:first-of-type,
+img:nth-of-type(2) {
     width: 23em;
     margin: 0;
     box-shadow: none;
@@ -673,7 +685,7 @@ Responsive tablet formaat homepage main
 **************************************************************************************************/
 
 @media (min-width: 768px) {
-    .home-body section:nth-of-type(2)>article:nth-of-type(2){
+    .home-body section:nth-of-type(2)>article:nth-of-type(2) {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -706,7 +718,7 @@ Responsive tablet formaat homepage main
         max-height: 11em;
         margin-top: 6em;
         margin-bottom: 6em;
-        
+
     }
 }
 
@@ -720,16 +732,16 @@ Responsive tablet formaat homepage main
 @media (min-width: 768px) {
     main img:first-of-type {
         width: 100%;
-    max-height: 22em;
-    object-fit: cover;
+        max-height: 22em;
+        object-fit: cover;
     }
 }
 
 @media (min-width: 1025px) {
     main img:first-of-type {
         width: 100%;
-    max-height: 43em;
-    object-fit: cover;
+        max-height: 43em;
+        object-fit: cover;
     }
 }
 
@@ -738,6 +750,7 @@ Responsive tablet formaat homepage main
         padding-left: 3em;
     }
 }
+
 /*************************************************************************************************
 Responsive footer ipad
 **************************************************************************************************/
@@ -754,7 +767,7 @@ Responsive footer ipad
     footer section:first-of-type {
         grid-column-start: 1;
         grid-column-end: -1;
-       
+
     }
 }
 
@@ -767,21 +780,21 @@ Responsive footer ipad
 
 
 @media (min-width: 768px) {
-    footer section:nth-of-type(2){
+    footer section:nth-of-type(2) {
         grid-column-start: 2;
         grid-row-start: 3;
     }
 }
 
 @media (min-width: 768px) {
-    footer section:nth-of-type(3){
+    footer section:nth-of-type(3) {
         grid-column-start: 1;
         grid-row-start: 3;
     }
 }
 
 @media (min-width: 768px) {
-    footer section:nth-of-type(4){
+    footer section:nth-of-type(4) {
         grid-column-start: 2;
         grid-row-start: 2;
     }
@@ -790,7 +803,7 @@ Responsive footer ipad
 /*************************************************************************************************
 Responsive footer desktop
 **************************************************************************************************/
-@media (min-width: 1025px){
+@media (min-width: 1025px) {
     footer article {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -802,26 +815,26 @@ Responsive footer desktop
     footer section:first-of-type {
         grid-column-start: 1;
         grid-column-end: -1;
-       
+
     }
-} 
+}
 
 @media (min-width: 1025px) {
-    footer section:nth-of-type(2){
+    footer section:nth-of-type(2) {
         grid-column-start: 4;
         grid-row-start: 2;
     }
 }
 
 @media (min-width: 1025px) {
-    footer section:nth-of-type(3){
+    footer section:nth-of-type(3) {
         grid-column-start: 3;
         grid-row-start: 2;
     }
 }
 
 @media (min-width: 1025px) {
-    footer section:nth-of-type(4){
+    footer section:nth-of-type(4) {
         grid-column-start: 2;
         grid-row-start: 2;
     }
@@ -845,18 +858,18 @@ Responsive header tablet & desktop
 @media (min-width: 768px) {
     header {
         display: grid;
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: auto;
-       padding-bottom: 0.5em;
-       padding-top: 0.5em;
-       margin-top: 0;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        margin-top: 0;
     }
 }
 
 @media (min-width: 768px) {
     header img:first-of-type {
         grid-column-start: 2;
-        
+
     }
 }
 
@@ -868,22 +881,24 @@ Responsive header tablet & desktop
         z-index: 20;
     }
 }
-    
+
 @media (min-width: 768px) {
-        header button:nth-last-of-type(2), button:nth-of-type(3) {
-            grid-column-start: 3;
-            grid-column-end: 3;
-        
-        }
+
+    header button:nth-last-of-type(2),
+    button:nth-of-type(3) {
+        grid-column-start: 3;
+        grid-column-end: 3;
+
     }
-    
+}
+
 @media (min-width: 768px) {
-        header nav.open button {
-            width: 2.5em;
-            margin-top: 0;
-            margin-left: 1.7em;
-        }
+    header nav.open button {
+        width: 2.5em;
+        margin-top: 0;
+        margin-left: 1.7em;
     }
+}
 
 @media (min-width: 1025px) {
     header img:first-of-type {
@@ -901,30 +916,32 @@ Responsive menu
 
 @media (min-width: 768px) {
     .menu-body main section article {
-       margin: 0.5em;
+        margin: 0.5em;
     }
 }
 
 @media (min-width: 768px) {
     .menu-body main section article p {
-       line-height: 1.5em;
-       margin-bottom: 1em;
-       margin-top: 0.5em;
-       padding-left: 0;
+        line-height: 1.5em;
+        margin-bottom: 1em;
+        margin-top: 0.5em;
+        padding-left: 0;
     }
 }
 
 @media (min-width: 768px) {
     .menu-body main section article p:last-of-type {
-       line-height: 1.5em;
-       font-weight: 150;
+        line-height: 1.5em;
+        font-weight: 150;
     }
 }
 
 
 
 @media (min-width: 1281px) {
-    .menu-body section article img:first-of-type, img:nth-of-type(2) {
+
+    .menu-body section article img:first-of-type,
+    img:nth-of-type(2) {
         width: 28em;
     }
 }
@@ -945,7 +962,7 @@ Responsive menu
 
 @media (min-width: 1281px) {
     .menu-body main section article p {
-       font-size: 0.85em;
+        font-size: 0.85em;
     }
 }
 
@@ -971,13 +988,13 @@ Menu section
 }
 
 @media (min-width: 768px) {
-    .menu-body main section:first-of-type div { 
+    .menu-body main section:first-of-type div {
         width: 60%;
     }
 }
 
 @media (min-width: 768px) {
-    .menu-body main section:first-of-type img { 
+    .menu-body main section:first-of-type img {
         margin: 0;
         width: 40%;
         padding-right: 2em;
@@ -986,7 +1003,7 @@ Menu section
 
 
 @media (min-width: 768px) {
-    .menu-body main section:first-of-type button { 
+    .menu-body main section:first-of-type button {
         margin-left: 1.5em;
         margin-bottom: 2em;
         width: 35em;
@@ -995,7 +1012,7 @@ Menu section
 }
 
 @media (min-width: 768px) {
-    .menu-body main section:first-of-type h1 { 
+    .menu-body main section:first-of-type h1 {
         font-size: 2.5em;
         text-align: start;
         padding-left: 0.5em;
@@ -1019,9 +1036,9 @@ Menu section
 }
 
 
-.menu-body main section:first-of-type li { 
-        display: inline-block;
-    }
+.menu-body main section:first-of-type li {
+    display: inline-block;
+}
 
 @media (max-width: 768px) {
     .menu-body main section:first-of-type {
@@ -1163,7 +1180,7 @@ bijgerechten
     .menu-body main section:nth-of-type(5) article:last-of-type {
         grid-column-start: 2;
         grid-column-end: 3;
-        
+
     }
 }
 
@@ -1180,6 +1197,7 @@ bijgerechten
         margin-top: 4em;
     }
 }
+
 /***********************
 Deserts
 ************************/
@@ -1211,7 +1229,7 @@ Deserts
 
 @media (min-width: 768px) {
     .menu-body main section:nth-of-type(6) h2 {
-        
+
         margin-top: 4em;
     }
 }
@@ -1308,9 +1326,9 @@ ons verhaal
         margin-top: 8em;
         display: flex;
         justify-content: center;
-        align-items: center;  
-        margin-left: 6em; 
- }
+        align-items: center;
+        margin-left: 6em;
+    }
 }
 
 /**************************
@@ -1318,10 +1336,10 @@ header navigatie responsive
 ****************************/
 
 
- @media (min-width: 1025px) {
+@media (min-width: 1025px) {
     header {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr 1fr;
     }
- }
+}
 
